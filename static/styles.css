@@ -1,9 +1,9 @@
 * {
     background-color: black;
     color:white;
-    text-align: center;
 }
 
-.container {
-    margin-top: 20%;
+.center {
+    display: flex;
+    justify-content: center;
 }

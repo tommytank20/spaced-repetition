@@ -4,14 +4,14 @@
     <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container" class="center">
         <form method="POST">
             <label>Question:</label>
-            <input type="text" />
+            <input type="text" name="question" placeholder="Type a Question here..."/>
             <label>Answer:</label>
-            <input type="text" /><br />
-            <input type="submit" text="Create Question" />
+            <input type="text" name="answer" placeholder="Type an Answer here..." /><br />
+            <input type="submit" class="submit" class="submit"text="Create Question" />
         </form>
+        <a href="/repetition">Do Repetition</a>
     </div>
-    <a href="/repetition">Do Repetition</a>
 </body>
